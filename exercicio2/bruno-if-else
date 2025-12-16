@@ -1,0 +1,9 @@
+maca = int(input("Digite a quantidade de maçãs vendidas: "))
+banana = int(input("Digite a quantidade de bananas vendidas: "))
+
+if maca == banana:
+    print("quantidade foi igual")
+elif maca > banana:
+    print("A Maças tiveram mais vendas")
+else:
+    print("Bananas venderam mais")
